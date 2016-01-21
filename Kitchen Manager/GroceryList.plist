@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diary</key>
+	<dict>
+		<key>Reduced Fat Milk</key>
+		<false/>
+		<key>Whole Fat Milk</key>
+		<false/>
+		<key>Fat free Milk</key>
+		<false/>
+		<key>Yogurt</key>
+		<false/>
+		<key>cream cheese</key>
+		<false/>
+	</dict>
+	<key>Fruits</key>
+	<dict>
+		<key>Apple</key>
+		<false/>
+		<key>Orange</key>
+		<false/>
+		<key>Grapes</key>
+		<false/>
+		<key>Banana</key>
+		<false/>
+		<key>Plum</key>
+		<false/>
+	</dict>
+	<key>Vegetables</key>
+	<dict>
+		<key>Onion</key>
+		<false/>
+		<key>shallot</key>
+		<false/>
+		<key>carrot</key>
+		<false/>
+		<key>Green Beans</key>
+		<false/>
+		<key>Cabbage</key>
+		<false/>
+	</dict>
+	<key>Cereals</key>
+	<dict>
+		<key>Red Rice</key>
+		<false/>
+		<key>Brown Rice</key>
+		<false/>
+		<key>Basmati Rice</key>
+		<false/>
+		<key>Corn Flakes</key>
+		<false/>
+	</dict>
+	<key>Beverages</key>
+	<dict>
+		<key>Juice</key>
+		<false/>
+		<key>Soft Drinks</key>
+		<false/>
+		<key>Wine</key>
+		<false/>
+		<key>Beer</key>
+		<false/>
+	</dict>
+	<key>Meat</key>
+	<dict>
+		<key>Beef</key>
+		<false/>
+		<key>Chicken</key>
+		<false/>
+		<key>Pork</key>
+		<false/>
+		<key>Mutton</key>
+		<false/>
+	</dict>
+	<key>Other</key>
+	<dict/>
+</dict>
+</plist>

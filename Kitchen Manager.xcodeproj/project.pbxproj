@@ -7,13 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B0E39AE1C0B98950017143E /* GroceryCheckListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0E39AD1C0B98950017143E /* GroceryCheckListViewController.swift */; };
+		1B0E39B21C0BA6620017143E /* CheckListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0E39B11C0BA6620017143E /* CheckListItem.swift */; };
+		1B0E39B41C0BAA580017143E /* CheckListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0E39B31C0BAA580017143E /* CheckListTableViewCell.swift */; };
+		1B30873D1C1FE1C200AC3011 /* GroceryStore.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1B30873C1C1FE1C200AC3011 /* GroceryStore.plist */; };
+		1B56E7461C1C694100904F1F /* GroceryStoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B56E7451C1C694100904F1F /* GroceryStoreViewController.swift */; };
+		1B8FE4211C23A834006E88F7 /* ReadMe in Resources */ = {isa = PBXBuildFile; fileRef = 1B8FE4201C23A834006E88F7 /* ReadMe */; };
+		1B97D7651C0E4E4200441629 /* GroceryItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B97D7641C0E4E4200441629 /* GroceryItemsViewController.swift */; };
+		1B97D7671C10892E00441629 /* GroceryList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1B97D7661C10892E00441629 /* GroceryList.plist */; };
+		1B97D7691C17713400441629 /* DataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B97D7681C17713400441629 /* DataHelper.swift */; };
+		1B97D7711C19022D00441629 /* FoodDayPlannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B97D7701C19022D00441629 /* FoodDayPlannerViewController.swift */; };
+		1B97D7731C19E87600441629 /* FoodWeekTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B97D7721C19E87600441629 /* FoodWeekTableViewController.swift */; };
 		1BAE917C1C0633EA000A7C38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BAE917B1C0633EA000A7C38 /* AppDelegate.swift */; };
-		1BAE917E1C0633EA000A7C38 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BAE917D1C0633EA000A7C38 /* ViewController.swift */; };
+		1BAE917E1C0633EA000A7C38 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BAE917D1C0633EA000A7C38 /* HomeViewController.swift */; };
 		1BAE91811C0633EA000A7C38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BAE917F1C0633EA000A7C38 /* Main.storyboard */; };
 		1BAE91831C0633EA000A7C38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BAE91821C0633EA000A7C38 /* Assets.xcassets */; };
 		1BAE91861C0633EA000A7C38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BAE91841C0633EA000A7C38 /* LaunchScreen.storyboard */; };
 		1BAE91911C0633EA000A7C38 /* Kitchen_ManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BAE91901C0633EA000A7C38 /* Kitchen_ManagerTests.swift */; };
 		1BAE919C1C0633EA000A7C38 /* Kitchen_ManagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BAE919B1C0633EA000A7C38 /* Kitchen_ManagerUITests.swift */; };
+		1BAE91AB1C063477000A7C38 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BAE91A91C063477000A7C38 /* Bolts.framework */; };
+		1BAE91AC1C063477000A7C38 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BAE91AA1C063477000A7C38 /* Parse.framework */; };
+		1BAE91AF1C06351F000A7C38 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BAE91AE1C06351F000A7C38 /* AudioToolbox.framework */; };
+		1BAE91B11C06352A000A7C38 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BAE91B01C06352A000A7C38 /* CFNetwork.framework */; };
+		1BAE91B31C063537000A7C38 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BAE91B21C063537000A7C38 /* CoreGraphics.framework */; };
+		1BAE91B71C06355B000A7C38 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BAE91B41C06355B000A7C38 /* CoreLocation.framework */; };
+		1BAE91BB1C06356D000A7C38 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BAE91BA1C06356D000A7C38 /* QuartzCore.framework */; };
+		1BAE91BD1C06357B000A7C38 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BAE91BC1C06357B000A7C38 /* Security.framework */; };
+		1BAE91BF1C063585000A7C38 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BAE91BE1C063585000A7C38 /* StoreKit.framework */; };
+		1BAE91C11C063593000A7C38 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BAE91C01C063593000A7C38 /* SystemConfiguration.framework */; };
+		1BAE91C31C06359E000A7C38 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BAE91C21C06359E000A7C38 /* libz.tbd */; };
+		1BAE91C51C0635AA000A7C38 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BAE91C41C0635AA000A7C38 /* libsqlite3.tbd */; };
+		1BAE91E71C064065000A7C38 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BAE91E61C064065000A7C38 /* LoginViewController.swift */; };
+		1BAE91E91C06657F000A7C38 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BAE91E81C06657F000A7C38 /* SignupViewController.swift */; };
+		1BEB9B6B1C1A323500433AD5 /* FoodPlannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEB9B6A1C1A323500433AD5 /* FoodPlannerViewController.swift */; };
+		1BECD68A1C22FB8600D757A1 /* PasswordResetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BECD6891C22FB8600D757A1 /* PasswordResetViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +61,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B0E39AD1C0B98950017143E /* GroceryCheckListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroceryCheckListViewController.swift; sourceTree = "<group>"; };
+		1B0E39B11C0BA6620017143E /* CheckListItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckListItem.swift; sourceTree = "<group>"; };
+		1B0E39B31C0BAA580017143E /* CheckListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckListTableViewCell.swift; sourceTree = "<group>"; };
+		1B30873C1C1FE1C200AC3011 /* GroceryStore.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GroceryStore.plist; sourceTree = "<group>"; };
+		1B56E7451C1C694100904F1F /* GroceryStoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroceryStoreViewController.swift; sourceTree = "<group>"; };
+		1B8FE4201C23A834006E88F7 /* ReadMe */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadMe; sourceTree = "<group>"; };
+		1B97D7641C0E4E4200441629 /* GroceryItemsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroceryItemsViewController.swift; sourceTree = "<group>"; };
+		1B97D7661C10892E00441629 /* GroceryList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GroceryList.plist; sourceTree = "<group>"; };
+		1B97D7681C17713400441629 /* DataHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataHelper.swift; sourceTree = "<group>"; };
+		1B97D7701C19022D00441629 /* FoodDayPlannerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodDayPlannerViewController.swift; sourceTree = "<group>"; };
+		1B97D7721C19E87600441629 /* FoodWeekTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodWeekTableViewController.swift; sourceTree = "<group>"; };
 		1BAE91781C0633EA000A7C38 /* Kitchen Manager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kitchen Manager.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BAE917B1C0633EA000A7C38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1BAE917D1C0633EA000A7C38 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1BAE917D1C0633EA000A7C38 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		1BAE91801C0633EA000A7C38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1BAE91821C0633EA000A7C38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1BAE91851C0633EA000A7C38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +85,22 @@
 		1BAE91971C0633EA000A7C38 /* Kitchen ManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kitchen ManagerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BAE919B1C0633EA000A7C38 /* Kitchen_ManagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kitchen_ManagerUITests.swift; sourceTree = "<group>"; };
 		1BAE919D1C0633EA000A7C38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BAE91A91C063477000A7C38 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		1BAE91AA1C063477000A7C38 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		1BAE91AE1C06351F000A7C38 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		1BAE91B01C06352A000A7C38 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		1BAE91B21C063537000A7C38 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1BAE91B41C06355B000A7C38 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		1BAE91BA1C06356D000A7C38 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		1BAE91BC1C06357B000A7C38 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		1BAE91BE1C063585000A7C38 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		1BAE91C01C063593000A7C38 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		1BAE91C21C06359E000A7C38 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		1BAE91C41C0635AA000A7C38 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		1BAE91E61C064065000A7C38 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		1BAE91E81C06657F000A7C38 /* SignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		1BEB9B6A1C1A323500433AD5 /* FoodPlannerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodPlannerViewController.swift; sourceTree = "<group>"; };
+		1BECD6891C22FB8600D757A1 /* PasswordResetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordResetViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +108,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BAE91C51C0635AA000A7C38 /* libsqlite3.tbd in Frameworks */,
+				1BAE91C31C06359E000A7C38 /* libz.tbd in Frameworks */,
+				1BAE91C11C063593000A7C38 /* SystemConfiguration.framework in Frameworks */,
+				1BAE91BF1C063585000A7C38 /* StoreKit.framework in Frameworks */,
+				1BAE91BD1C06357B000A7C38 /* Security.framework in Frameworks */,
+				1BAE91BB1C06356D000A7C38 /* QuartzCore.framework in Frameworks */,
+				1BAE91B71C06355B000A7C38 /* CoreLocation.framework in Frameworks */,
+				1BAE91B31C063537000A7C38 /* CoreGraphics.framework in Frameworks */,
+				1BAE91B11C06352A000A7C38 /* CFNetwork.framework in Frameworks */,
+				1BAE91AF1C06351F000A7C38 /* AudioToolbox.framework in Frameworks */,
+				1BAE91AC1C063477000A7C38 /* Parse.framework in Frameworks */,
+				1BAE91AB1C063477000A7C38 /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,9 +140,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B8FE4231C23BF06006E88F7 /* GroceryManager */ = {
+			isa = PBXGroup;
+			children = (
+				1B56E7451C1C694100904F1F /* GroceryStoreViewController.swift */,
+				1B0E39AD1C0B98950017143E /* GroceryCheckListViewController.swift */,
+				1B97D7641C0E4E4200441629 /* GroceryItemsViewController.swift */,
+				1B0E39B31C0BAA580017143E /* CheckListTableViewCell.swift */,
+				1B0E39B11C0BA6620017143E /* CheckListItem.swift */,
+				1B97D7661C10892E00441629 /* GroceryList.plist */,
+				1B30873C1C1FE1C200AC3011 /* GroceryStore.plist */,
+			);
+			name = GroceryManager;
+			sourceTree = "<group>";
+		};
+		1B8FE4241C23BF2F006E88F7 /* ParseSignUp */ = {
+			isa = PBXGroup;
+			children = (
+				1BAE91E61C064065000A7C38 /* LoginViewController.swift */,
+				1BECD6891C22FB8600D757A1 /* PasswordResetViewController.swift */,
+				1BAE91E81C06657F000A7C38 /* SignupViewController.swift */,
+			);
+			name = ParseSignUp;
+			sourceTree = "<group>";
+		};
+		1B8FE4251C23BF58006E88F7 /* FoodPlanner */ = {
+			isa = PBXGroup;
+			children = (
+				1B97D7701C19022D00441629 /* FoodDayPlannerViewController.swift */,
+				1BEB9B6A1C1A323500433AD5 /* FoodPlannerViewController.swift */,
+				1B97D7721C19E87600441629 /* FoodWeekTableViewController.swift */,
+			);
+			name = FoodPlanner;
+			sourceTree = "<group>";
+		};
 		1BAE916F1C0633EA000A7C38 = {
 			isa = PBXGroup;
 			children = (
+				1B8FE4201C23A834006E88F7 /* ReadMe */,
+				1BAE91AD1C0634B5000A7C38 /* FrameWorks */,
 				1BAE917A1C0633EA000A7C38 /* Kitchen Manager */,
 				1BAE918F1C0633EA000A7C38 /* Kitchen ManagerTests */,
 				1BAE919A1C0633EA000A7C38 /* Kitchen ManagerUITests */,
@@ -97,12 +199,16 @@
 		1BAE917A1C0633EA000A7C38 /* Kitchen Manager */ = {
 			isa = PBXGroup;
 			children = (
+				1B8FE4251C23BF58006E88F7 /* FoodPlanner */,
+				1B8FE4241C23BF2F006E88F7 /* ParseSignUp */,
+				1B8FE4231C23BF06006E88F7 /* GroceryManager */,
+				1BAE917D1C0633EA000A7C38 /* HomeViewController.swift */,
 				1BAE917B1C0633EA000A7C38 /* AppDelegate.swift */,
-				1BAE917D1C0633EA000A7C38 /* ViewController.swift */,
 				1BAE917F1C0633EA000A7C38 /* Main.storyboard */,
 				1BAE91821C0633EA000A7C38 /* Assets.xcassets */,
 				1BAE91841C0633EA000A7C38 /* LaunchScreen.storyboard */,
 				1BAE91871C0633EA000A7C38 /* Info.plist */,
+				1B97D7681C17713400441629 /* DataHelper.swift */,
 			);
 			path = "Kitchen Manager";
 			sourceTree = "<group>";
@@ -123,6 +229,25 @@
 				1BAE919D1C0633EA000A7C38 /* Info.plist */,
 			);
 			path = "Kitchen ManagerUITests";
+			sourceTree = "<group>";
+		};
+		1BAE91AD1C0634B5000A7C38 /* FrameWorks */ = {
+			isa = PBXGroup;
+			children = (
+				1BAE91C41C0635AA000A7C38 /* libsqlite3.tbd */,
+				1BAE91C21C06359E000A7C38 /* libz.tbd */,
+				1BAE91C01C063593000A7C38 /* SystemConfiguration.framework */,
+				1BAE91BE1C063585000A7C38 /* StoreKit.framework */,
+				1BAE91BC1C06357B000A7C38 /* Security.framework */,
+				1BAE91BA1C06356D000A7C38 /* QuartzCore.framework */,
+				1BAE91B41C06355B000A7C38 /* CoreLocation.framework */,
+				1BAE91B21C063537000A7C38 /* CoreGraphics.framework */,
+				1BAE91B01C06352A000A7C38 /* CFNetwork.framework */,
+				1BAE91AE1C06351F000A7C38 /* AudioToolbox.framework */,
+				1BAE91AA1C063477000A7C38 /* Parse.framework */,
+				1BAE91A91C063477000A7C38 /* Bolts.framework */,
+			);
+			name = FrameWorks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +359,9 @@
 			files = (
 				1BAE91861C0633EA000A7C38 /* LaunchScreen.storyboard in Resources */,
 				1BAE91831C0633EA000A7C38 /* Assets.xcassets in Resources */,
+				1B30873D1C1FE1C200AC3011 /* GroceryStore.plist in Resources */,
+				1B97D7671C10892E00441629 /* GroceryList.plist in Resources */,
+				1B8FE4211C23A834006E88F7 /* ReadMe in Resources */,
 				1BAE91811C0633EA000A7C38 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,7 +387,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BAE917E1C0633EA000A7C38 /* ViewController.swift in Sources */,
+				1B97D7651C0E4E4200441629 /* GroceryItemsViewController.swift in Sources */,
+				1BECD68A1C22FB8600D757A1 /* PasswordResetViewController.swift in Sources */,
+				1BAE91E71C064065000A7C38 /* LoginViewController.swift in Sources */,
+				1BAE917E1C0633EA000A7C38 /* HomeViewController.swift in Sources */,
+				1BEB9B6B1C1A323500433AD5 /* FoodPlannerViewController.swift in Sources */,
+				1B56E7461C1C694100904F1F /* GroceryStoreViewController.swift in Sources */,
+				1B0E39B21C0BA6620017143E /* CheckListItem.swift in Sources */,
+				1B0E39AE1C0B98950017143E /* GroceryCheckListViewController.swift in Sources */,
+				1BAE91E91C06657F000A7C38 /* SignupViewController.swift in Sources */,
+				1B0E39B41C0BAA580017143E /* CheckListTableViewCell.swift in Sources */,
+				1B97D7711C19022D00441629 /* FoodDayPlannerViewController.swift in Sources */,
+				1B97D7691C17713400441629 /* DataHelper.swift in Sources */,
+				1B97D7731C19E87600441629 /* FoodWeekTableViewController.swift in Sources */,
 				1BAE917C1C0633EA000A7C38 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -402,6 +542,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Kitchen Manager/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sdsu.Kitchen-Manager";
@@ -413,6 +557,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Kitchen Manager/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sdsu.Kitchen-Manager";
@@ -487,6 +635,7 @@
 				1BAE91A21C0633EA000A7C38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1BAE91A31C0633EA000A7C38 /* Build configuration list for PBXNativeTarget "Kitchen ManagerTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +644,7 @@
 				1BAE91A51C0633EA000A7C38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1BAE91A61C0633EA000A7C38 /* Build configuration list for PBXNativeTarget "Kitchen ManagerUITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +653,7 @@
 				1BAE91A81C0633EA000A7C38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

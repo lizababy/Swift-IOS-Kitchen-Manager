@@ -1,0 +1,15 @@
+Name  : LIZA BABY
+Red Id : 818637086
+Application Name: Kitchen Manager
+3rd Party Library : PARSE.COM
+
+Description : App to manage grocery shopping and food meal plan.
+
+Grocery Manager, can create, edit grocery shopping checklist and categorize based on grocery store from where grocery is to be purchased. Also maintain a list of grocery items based on the type of food for easy creation of checklist.
+Food planner, that can plan meal for next 3 weeks. Shows the overall week plan and also day plan
+
+Make use of Parse for registered users. For non users, data is stored locally.
+***************************
+Sample login details to demo 
+user : test1234
+password : 12345
